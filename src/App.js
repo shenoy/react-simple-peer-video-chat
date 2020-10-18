@@ -151,7 +151,7 @@ function App() {
 
   let UserVideo;
   if (stream) {
-    UserVideo = <Video playsInline muted ref={userVideo} autoPlay />;
+    UserVideo = <Video playsInline  ref={userVideo} autoPlay />;
   }
 
   let PartnerVideo;
